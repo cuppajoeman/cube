@@ -17,3 +17,8 @@ We would like to use this program to figure out a method to solve the rubicks cu
 
 ## todo
 - Add full move history & Compressed move information (Potentially implement concepts from file compression theory with the goal of compressing move information)
+
+## resources
+* https://people.math.harvard.edu/~jjchen/docs/Group%20Theory%20and%20the%20Rubik%27s%20Cube.pdf
+* https://www.worldcubeassociation.org/regulations/scrambles/
+* https://www.ryanheise.com/cube/
