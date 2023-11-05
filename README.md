@@ -9,6 +9,11 @@ rotate the (f: front, b: back, l: left, r: right, u: up, d: down) face clockwise
 
 rotate the cube 90 degrees around the (x, y, z) axis clockwise, hold shift for couter clockwise
 
-Potential Ideas/Implementations:
-- Add full move history & Compressed move information
-- Potentially implement concepts from file compression theory with the goal of compressing move information
+## goal
+We would like to use this program to figure out a method to solve the rubicks cube in the minimal amount of moves. The general idea is that based on the current state of the cube the solver can inspect the cube and then consider the 12 possible next moves, and there should be a way to determine which move is the correct one.
+
+## ideas/questions
+- Maybe we can come up with properties about the edges and corners and based on those properties we can determine how moves would have been required to get to that state, then we can see if any of the 12 possible next moves produce a state which requires less moves to produce
+
+## todo
+- Add full move history & Compressed move information (Potentially implement concepts from file compression theory with the goal of compressing move information)
